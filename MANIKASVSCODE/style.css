@@ -1,0 +1,22 @@
+body {  
+    background-color: rgb(49, 216, 216);
+    transition: background-color 0.5s ease-in-out;
+   
+
+.Título {
+    
+    text-align: center; 
+    color: rgb(8, 94, 224);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 30px 10px rgba(93, 101, 214, 0.1);
+    ;
+    background-color:rgb(51, 12, 223)
+   
+}
+.texto {
+  text-align: center;
+  transition: all 1s ease-in-out;
+  animation: change-color 4s infinite; 
+  color:rgb(2, 2, 2)
+}
+}
