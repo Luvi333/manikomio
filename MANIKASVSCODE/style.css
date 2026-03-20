@@ -1,9 +1,9 @@
 body {  
     background-color: hsl(180, 27%, 58%);
     transition: background-color 0.5s ease-in-out;
-   
+}
 
-.Título {
+#Título {
     
     text-align: center; 
     color: rgba(8, 94, 224, 0.374);
