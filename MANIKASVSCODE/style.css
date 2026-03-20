@@ -1,22 +1,51 @@
 body {  
-    background-color: rgb(49, 216, 216);
+    background-color: hsl(180, 27%, 58%);
     transition: background-color 0.5s ease-in-out;
    
 
 .Título {
     
     text-align: center; 
-    color: rgb(8, 94, 224);
+    color: rgba(8, 94, 224, 0.374);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-shadow: 0 30px 10px rgba(93, 101, 214, 0.1);
     ;
-    background-color:rgb(51, 12, 223)
+    background-color:rgb(97, 82, 165)
    
 }
 .texto {
   text-align: center;
   transition: all 1s ease-in-out;
   animation: change-color 4s infinite; 
-  color:rgb(2, 2, 2)
+  color:rgb(2, 2, 2);
+  width: 900px;
+  background-color:rgba(95, 125, 124, 0.677);
 }
+.lista {
+    text-align:left;
+    color:rgb(97, 82, 165);
+    background-color:rgb(71, 112, 164);
+    width: 300px;
+    transition: background-color,border, 3s ease-in-out;
+     border-top: 5px solid rgba(114, 86, 212, 0.75);
+  border-bottom: 5px solid rgba(14, 86, 212, 0.75);
+  border-left: 10px solid rgba(10, 14, 134);
+  border-right: 2px solid ;
+    font-style:oblique;
+    font-size:x-large;
+}
+.lista2 {
+    text-align:left;
+    color:rgb(97, 82, 165);
+    background-color:rgb(71, 112, 164);
+    width: 300px;
+    transition: background-color 2s ease-in-out;
+      transition: background-color,border, 3s ease-in-out;
+     border-top: 5px solid rgba(114, 86, 212, 0.75);
+  border-bottom: 5px solid rgba(14, 86, 212, 0.75);
+  border-left: 10px solid rgba(10, 14, 134);
+  border-right: 2px solid ;
+  font-style:italic;
+  font-size:medium;
+  
 }
